@@ -193,7 +193,7 @@ p {
 .work img {
     width: 100%;       /* Ensures full width of the container */
     height: 500px;     /* Set a fixed height */
-    object-fit: fill; /* Ensures images crop to fit evenly */
+    object-fit: cover; /* Ensures images crop to fit evenly */
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -403,5 +403,6 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+
 
 
